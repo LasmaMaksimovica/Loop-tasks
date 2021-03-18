@@ -6,7 +6,7 @@
 const number = 13;
 let isPrime = true;
 
-if (number === 1 || number === 2) {
+if (number === 1) {
     console.log(`The entered number ${number} is not prime number`)
 } else {
     for (let i = 2; i < number; i++) {
