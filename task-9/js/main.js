@@ -7,8 +7,9 @@
 const number1 = 25;
 const number2 = 15;
 
-for (let i = number1; i > 0; i--)
+for (let i = number1; i > 0; i--) {
     if (number1 % i === 0 && number2 % i === 0) {
         console.log(i)
         break
     }
+}
